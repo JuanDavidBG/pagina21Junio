@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 45px;
+  color: rgba(255, 255, 0, 0.8);
+  background: cyan;
+  background-color: blue;
+}
+
+.title {
+  text-align: center;
+}
+
+main > section#section > div.contenedor > div.img,
+main > section#section > div.contenedor > div#img,
+section.section {
+  background-image: url(ardilla.jpg);
+  background-size: cover;
+  background-image: linear-gradient(
+      to top,
+      rgba(72, 152, 202, 0.471) 0%,
+      rgba(74, 80, 84, 0.459) 100%
+    ),
+    url(ardilla.jpg);
+}
+
+.img,
+#img {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  color: #fff;
+}
+
+.atatchment {
+  background-attachment: fixed;
+}
+.contenedor {
+  max-height: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.section {
+  height: 250px;
+}
+
+.titulo {
+  font-size: 30px;
+}
